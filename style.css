@@ -1,0 +1,299 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navBar{
+    background-color: #f4f4f4;
+    display: flex;
+    margin: 0 auto ;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.leftNavBar{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+}
+.logo{
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    margin: 10px 10px 0 0;
+}
+.categoryDropdown {
+    margin: auto 10px auto 35px;
+}
+.categoryButton{
+    background-color: transparent;
+    border: none;
+    color: green;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.categoryDropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.categoryDropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.categoryDropdown:hover .categoryDropdownContent {
+    display: block;
+}
+.categoryDropdownContent a:hover {
+    background-color: #f4f4f4;
+}
+
+.searchBar{
+    margin-right: 20px;
+    margin-left: 35px;
+}
+.searchBar input{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #e4e4e4;
+    border: 1px solid #f4f4f4;
+    padding: 5px;
+}
+.rightNavBar{
+    width: 50%;
+    padding: 20px;
+    /* display:block;
+    justify-content: space-between;
+    align-items: center; */
+}
+.rightNavBarButtons{
+    width: auto;
+}
+.rightNavBarButtons ul{
+    margin: 0;
+    padding: 0;
+}
+.rightNavBarButtons ul li{
+    display: inline-block;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 50px;
+}
+.rightNavBarButtons ul li:first-child{
+    margin-left: 70px;
+}
+.rightNavBarButtons ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+.mainDashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgb(77, 164, 251);
+}
+.leftDashboard{
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    /* background-color: darkblue; */
+}
+.leftDashboard h5{
+    margin-top: 100px;
+}
+.leftDashboard h1{
+    margin-top: 0;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}    
+.rightDashboard{
+    width: 50%;
+    padding: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnCourse{
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 120px;
+    color: rgb(77, 164, 251);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btnCourse:hover{
+    background-color: #1452c1;
+    color: white;
+    transition: 0.5s;
+}
+.performanceBar{
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #1452c1;
+    position: relative;
+    top: -70px;
+    width: 60%;
+    margin-bottom: 0;
+    margin: auto;
+}
+.performanceBarBoxes{
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+/* courses styling */
+.courses{
+    margin:0 auto;
+    width: 80%;
+    padding: 0 20px;
+    /* background-color: #D8F2F9; */
+}
+.courseRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+.courseCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 50px 0px rgba(0,0,0,0.1);
+    padding: 20px 10px;
+}
+.courseCard > h3{
+    position: relative;
+    top: 20px;
+}
+
+.courseCard:hover{
+    background-color: #1452c1;
+    color: white;
+    transition: 0.5s;
+}
+.read-more{
+    /* border: 1px solid red; */
+    width: max-content;
+    position: relative;
+    top: 10px;
+    left: -5px;
+    padding: 0 20px 20px 20px;
+    cursor: pointer;
+}
+.read-more:hover{
+    background-color: rgb(77, 164, 251);
+    transition: 0.5s;
+}
+.read-more::after{
+    content: "";
+    position: absolute;
+    bottom: 12px;
+    width: 70%;
+    left: 20px;
+    height: 4px;
+    background-color: white;
+    border-radius: 20px;
+    transform: scaleX(0.2);
+    transition: transform 0.3s ease-in;
+}
+
+.read-more:hover::after{
+    transform: scaleX(1);
+    background-color: white;
+}
+
+/* footer */
+.footer{
+    font-family: 'Raleway', sans-serif;
+    padding: 50px;
+    display: flex;
+    background-color: rgba(50, 50, 50, 1);
+    color: white;
+    background-attachment: fixed;
+}
+
+.leftFooter{
+    width: 400px;
+    box-sizing: border-box;
+}
+.leftFooter a{
+    text-decoration: none;
+    color: white;
+}
+.centreFooter{
+    width: 600px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+.centreFooter li{
+        list-style: none;
+}
+.footerLink{
+  margin-left: 200px;
+    line-height: 1.5;
+    color: rgba(232, 232, 232, 0.77);
+    font-family: 'helvetica Neue', sans-serif;
+    text-decoration: none;
+    transition: margin-left 0.3s ease;
+}
+  
+.footerLink:hover{
+  color: white;
+  margin-left: 220px;
+}
+.rightFooter{
+    flex: 1;
+    padding: 20px 0 0 20px;
+}
+
+.rightFooter input{
+      border-radius: 5px;
+      width: 300px;
+      height: 40px;
+      border: none;
+      padding-left: 15px;
+    background-color: rgb(74, 74, 74);
+}
+.sendIcon {
+  margin-left: 10px;
+  color: #fff; /* Icon color */
+  cursor: pointer;
+}
+
+.imgIcon{
+    width: 10%;
+    padding: 10px;
+}
