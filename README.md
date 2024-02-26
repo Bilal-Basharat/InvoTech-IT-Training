@@ -2,19 +2,19 @@
 ## Description
 In this project, I am implementing an IT training website using advance HTML and CSS. This is an assignment based project. The objective of this assignment is to demonstrate proficiency in advanced CSS and  HTML techniques to create a responsive and visually appealing website.
 
-#### How to run project :
+### How to run project :
 
-1. ** Clone Project Repository: **
+1. **Clone Project Repository:**
 
    Clone a project repository from GITHUB to your local system.
 
-2. **Start a Local Server : **
+2. **Start a Local Server :**
 
    open root folder of web app in vs code and press `f5`or `f10` to run project locally. 
 
-   ####Summary on findings :
+   #### Summary on findings :
 
-   I make an IT training web app using HTML5 & CSS3. In this app, I have implemented advance CSS concepts like
+   I have made an IT training web app using HTML5 & CSS3. In this app, I have implemented advance CSS concepts like
    
    + Media Queries
    + Flexbox
