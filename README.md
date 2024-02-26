@@ -4,7 +4,7 @@ In this project, I am implementing an IT training website using advance HTML and
 
 #### How to run project :
 
-1. **Clone Project Repository : **
+1. ** Clone Project Repository: **
 
    Clone a project repository from GITHUB to your local system.
 
@@ -16,16 +16,16 @@ In this project, I am implementing an IT training website using advance HTML and
 
    I make an IT training web app using HTML5 & CSS3. In this app, I have implemented advance CSS concepts like
    
-   ##### Media Queries
-   ##### Flexbox
-   ##### Grid
-   ##### Transition
-   ##### Transformation
-   ##### Positioning
-   ##### Box Shadow
-   ##### Border Raidus
-   ##### Pseudo-classes
-   ##### Z-Index
+   + Media Queries
+   + Flexbox
+   + Grid
+   + Transition
+   + Transformation
+   + Positioning
+   + Box Shadow
+   + Border Raidus
+   + Pseudo-classes
+   + Z-Index
 
 
    #### Challenges faced:
